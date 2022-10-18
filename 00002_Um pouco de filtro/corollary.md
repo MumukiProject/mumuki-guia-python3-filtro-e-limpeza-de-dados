@@ -1,5 +1,7 @@
-¡Excelente! 🌟
+Excelente! 🌟
 
-Ya pudimos quedarnos solamente con aquellos árboles que nos interesan, en este caso particular los del barrio de Palermo. Como te contamos no estamos borrando el resto de los árboles sino que estamos obteniendo una nueva tabla. Si quisiéramos trabajar a futuro con solo los árboles de Palermos podríamos guardar nuestro filtrado en una variable de la siguiente forma:
+Conseguimos manter apenas as árvores que nos interessam, neste caso  as do bairro Palermo. Como dissemos, não estamos excluindo o restante das árvores, só estamos obtendo uma nova tabela. Se quiséssemos trabalhar no futuro apenas com as árvores do bairro Palermo, poderíamos salvar nossa filtragem em uma variável da seguinte maneira:
 
-`arboles_de_palermo =  arboles[arboles["neighbourhood"] == "PALERMO"]`
+```
+arvores_de_palermo =  arvores[arvores["neighbourhood"] == "PALERMO"]
+```
