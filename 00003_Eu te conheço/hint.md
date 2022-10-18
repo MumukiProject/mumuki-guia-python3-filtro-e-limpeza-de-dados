@@ -1,6 +1,5 @@
-Para obtener todos los sauces deberíamos fijarnos que el `nombre` de nuestro árbol comience con el string `"Sauce"`. Tené cuidado con la sintaxis tan particular de esta expresión:
+Para obter todos os salgueiros, devemos nos certificar de que o `nome` da nossa árvore comece com a string `"Sauce"`. Tenha cuidado com a sintaxe específica desta expressão:
 
 ```python
-tabla[tabla[columna].str.startswith(string_comienzo)]
+tabela[tabela[coluna].str.startswith(string_começo)]
 ```
-

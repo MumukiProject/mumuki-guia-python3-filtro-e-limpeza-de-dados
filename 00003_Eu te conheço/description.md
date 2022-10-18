@@ -14,4 +14,4 @@ pessoas[pessoas["nome"].str.endswith("a")]
 
 Você notará que agora só passamos o segundo argumento para `str.endswith`. 
 
-> Vamos praticar com outra operação! Escreva uma expressão para obter todas as árvores do tipo salgueiro do nosso `DataFrame` de árvores e defina seu resultado como `salgueiros`.
+> Vamos praticar com outra operação! Escreva uma expressão para obter todas as árvores do tipo salgueiro (_sauce_) do nosso `DataFrame` de árvores e defina seu resultado como `salgueiros`.
