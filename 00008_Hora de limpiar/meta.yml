@@ -1,0 +1,16 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: free_form
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices: []
+goal: |
+  --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: last_query_equals
+  value: TODO
+name: Hora de limpiar

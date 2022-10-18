@@ -1,0 +1,1 @@
+:warning: Hay que tener en cuenta que esta forma de tratar los faltantes introduce sesgo y reduce el tamaño muestral por lo que es muy importante utilizar `dropna` a conciencia.   En otras palabras, si simplemente filtramos los datos faltantes, disminuirá el tamaño de las muestras y, por tanto, su valor estadístico. 

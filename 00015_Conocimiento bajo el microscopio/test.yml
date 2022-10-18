@@ -1,0 +1,26 @@
+- name: 'Cantidad de valores nulos tenemos en la columna "servicios"'
+  keys:
+    services:
+      equal: 255
+- name: 'Tamaño del dataset al eliminar todos los nans'
+  keys:
+    dropna:
+      equal: 178
+- name: 'Cantidad de microscopios electrónicos'
+  keys:
+    total:
+      equal: 68
+- name: 'Cantidad de microscopios electrónicos por provincia'
+  keys:
+    dist:
+      equal: 
+        expected: "prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\nRÍO NEGRO,5\nSANTA FE,5\nTUCUMÁN,4\nMENDOZA,3\nENTRE RÍOS,2\nSALTA,2\nCHUBUT,1\nCORRIENTES,1\nNEUQUÉN,1\nSAN JUAN,1\nSAN LUIS,1"
+        multiline: true
+        lenient_blank: true
+        ignore_whitespace: true
+        ignore_case: true           
+- name: 'Número de provincias con cantidades fuera de serie de microscopios'
+  keys:
+    out:
+      equal: 2
+                                              

@@ -1,0 +1,1 @@
+Ya aprendimos varias formas de eliminar nuestros valores nulos. Pero, ¿quitar los nulos es siempre la única opción? ¿No podríamos "rellenarlos"? 🖍️

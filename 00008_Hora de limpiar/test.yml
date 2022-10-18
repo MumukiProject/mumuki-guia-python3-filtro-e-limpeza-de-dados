@@ -1,0 +1,4 @@
+- name: 'Respuesta'
+  keys:
+    ans:
+      equal: 12
