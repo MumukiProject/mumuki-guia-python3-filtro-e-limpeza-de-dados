@@ -1,12 +1,12 @@
-¡Impecable! ✨
+Impecável! ✨
 
-Nuevamente te recordamos que este filtrado no altera el `DataFrame` original y que aunque estamos guardando el resultado en una variable `sauces`, la tabla original `arboles` no se ve modificada.
+Novamente, lembramos que esta filtragem não altera o `DataFrame` original e que embora estejamos salvando o resultado em uma variável `salgueiro`, a tabela original `arvores` não é modificada.
 
 ```python
-ム len(arboles)
+ム len(arvores)
 372694
-ム len(sauces)
+ム len(salgueiros)
 2441
 ```
 
-Cómo te podrás imaginar estas no son las únicas operaciones de strings que podemos utilizar. De hecho hay muchas más que las que ya trabajamos y podés conocerlas [acá](https://pandas.pydata.org/docs/user_guide/text.html)
+Como você pode imaginar, essas não são as únicas operações de string que podemos usar. Na verdade, existem muitas mais do que as que já trabalhamos e você pode conhecê-las [aqui](https://pandas.pydata.org/docs/user_guide/text.html)
