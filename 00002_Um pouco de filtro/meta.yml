@@ -12,4 +12,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_outputs
   output: TODO
-name: Un poco de filtro
+name: Um pouco de filtro
