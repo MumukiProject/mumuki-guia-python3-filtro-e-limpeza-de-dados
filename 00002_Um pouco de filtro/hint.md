@@ -1,3 +1,3 @@
-Para obtener los árboles de Palermo vas a tener que comparar la columna `barrio` con ese string. No te olvides de escribir el `DataFrame` antes de los corchetes y dentro de ellos.
+Para obter as árvores de Palermo você terá que comparar a coluna `bairro` com essa string. Não esqueça de escrever o `DataFrame` antes dos colchetes e dentro deles.
 
-Ah, ¡y cuidado con los nombres de los barrios! Recordá que con `dataframe[columna].unique()` podés saber todos los valores únicos de una columna y así entender cómo están escritos, porque quizás Palermo no se escriba `"Palermo"`. :face_with_raised_eyebrow:
+Ah, e cuidado com os nomes dos bairros! Lembre-se que com `tabela[coluna].unique()` você pode saber todos os valores únicos de uma coluna e assim entender como eles estão escritos, pois talvez Palermo não se escreve  `"Palermo"`. :face_with_raised_eyebrow:
