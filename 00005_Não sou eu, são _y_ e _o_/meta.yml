@@ -12,4 +12,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: No soy yo, son "y" y "o"
+name: Não sou eu, são "y" e "o"
