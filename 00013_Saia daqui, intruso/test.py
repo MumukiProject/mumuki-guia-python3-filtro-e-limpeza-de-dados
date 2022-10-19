@@ -6,4 +6,3 @@ class Test(unittest.TestCase):
   def test_árvores_muito_altas_e_largas_deveriam_ter_sido_removidas(self):
     self.assertTrue(182465 not in arvores.set_index("tree_id").index)
       
-        
