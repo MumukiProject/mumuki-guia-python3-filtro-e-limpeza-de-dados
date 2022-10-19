@@ -1,10 +1,13 @@
 class Test(unittest.TestCase):
 
-  def test_los_arboles_con_columnas_na_son_eliminados(self):
-    self.assertTrue(len(arboles) == 7, "se deberían haber eliminado todos los árboles con valores nan")
+  def test_as_árvores_com_colunas_NAN_são_removidas(self):
+    self.assertTrue(len(arboles) == 7, "todas as árvores com valores nan deveriam ter sido removidas")
     
     indexado = arboles.set_index("tree_id")
     
-    self.assertTrue(4101876 not in indexado, "se deberían haber eliminado todos los árboles con valores nan")
-    self.assertTrue(4101166 not in indexado, "se deberían haber eliminado todos los árboles con valores nan")
-    self.assertTrue(24002305 not in indexado, "se deberían haber eliminado todos los árboles con valores nan")
+    self.assertTrue(4101876 not in indexado, "todas as árvores com valores nan deveriam ter sido removidas")
+    self.assertTrue(4101166 not in indexado, "todas as árvores com valores nan deveriam ter sido removidas")
+    self.assertTrue(24002305 not in indexado, "todas as árvores com valores nan deveriam ter sido removidas")    
+ 
+
+        
