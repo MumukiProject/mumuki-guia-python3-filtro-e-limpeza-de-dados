@@ -1,1 +1,0 @@
-Dado que estamos *obteniendo*  los árboles que no tengan `nan` en esas columnas y no eliminándolos realmente, no vamos a escribir `inplace=True`.
