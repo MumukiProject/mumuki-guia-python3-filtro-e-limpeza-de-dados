@@ -1,3 +1,3 @@
-¡Perfecto! :clap:
+Perfeito! :star_struck:
 
-Ya sabemos cómo aplicar la conjunción y la disyunción lógica en `pandas` y de yapa conocimos `isin`. Pero... nos falta un famoso operador, ¿o _no_?
+Já sabemos como aplicar a conjunção e a disjunção lógica em `pandas` e de japa conhecemos `isin`. Mas... está faltando um famoso operador, ou _não_?
