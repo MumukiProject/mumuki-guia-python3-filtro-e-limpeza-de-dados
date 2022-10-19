@@ -1,10 +1,10 @@
-¡Bien! :sparkles: Nuevamente, esta información también podríamos haberla obtenido con `info()`...
+Muito bem! :sparkles: Novamente, esta informação também poderíamos obter com `info()`...
 
 ```python
-ム arboles.info()
+ム arvores.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
-Data columns (total 20 columns):
+Data colunas (total 20 colunas):
  #   Column         Non-Null Count   Dtype  
 ---  ------         --------------   -----  
  0   long           372659 non-null  float64
@@ -15,12 +15,12 @@ Data columns (total 20 columns):
 dtypes: float64(10), object(10)
 ```
 
-... pero definitivamente fue mucho más directo usar `notna` :sunglasses::
+... mas foi definitivamente muito mais direto usar `notna` :sunglasses::
 
 
 ```python
-ム len(arboles[arboles["num1"].notna()])
+ム len(arvores[arvores["num1"].notna()])
 372635
 ```
 
- ¿Y qué sucede si queremos eliminar toooodos los `nan`? 
+E o que acontece se queremos eliminar toooodos os `nan`? 
