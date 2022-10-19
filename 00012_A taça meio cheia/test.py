@@ -1,10 +1,10 @@
 class Test(unittest.TestCase):
 
-  def test_no_se_elimina_ningun_arbol(self):
-    self.assertTrue(len(arboles) == 10)
+  def test_nenhuma_árvore_é_removida(self):
+    self.assertTrue(len(arvores) == 10)
     
-  def test_no_quedan_inclinaciones_en_nan(self):
-    self.assertTrue(arboles["inclination"].count() == 10)  
+  def test_não_há_mais_inclinações_em_nan(self):
+    self.assertTrue(arvores["inclination"].count() == 10)  
     
-  def test_la_inclinacion_se_llena_con_el_promedio(self):
-    self.assertTrue(arboles["inclination"].mean() == 2.142857142857143)      
+  def test_a_inclinação_é_preenchida_com_a_média(self):
+    self.assertTrue(arvores["inclination"].mean() == 2.142857142857143)                  
