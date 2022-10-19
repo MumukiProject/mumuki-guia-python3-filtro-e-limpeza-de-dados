@@ -1,15 +1,15 @@
-¡Excelente! En este caso reemplazamos todas las inclinaciones faltantes por el promedio de esta columna. Si bien podíamos haberlo hecho por un valor concreto, por ejemplo 8, haciendo...
+Excelente! Nesse caso, substituímos todas as inclinações faltantes pela média desta coluna. Embora pudéssemos ter feito isso por um valor específico, por exemplo 8, fazendo...
 
 ```python
-arboles["inclination"].fillna(8, inplace=True)
+arvores["inclination"].fillna(8, inplace=True)
 ```
 
-...preferimos reemplazarlo por el promedio para intentar minimizar el impacto en los análisis estadísticos. De lo contrario, estaríamos distorsionando la verdadera distribución de la variable. 
+...preferimos substituir pela média para tentar minimizar o impacto nas análises estatísticas. Caso contrário, estaríamos distorcendo a verdadeira distribuição da variável.
 
-También podríamos haber reemplazado todos los valores ausentes de nuestra tabla dado que `fillna` también funciona con `DataFrame`s:
+Também poderíamos ter substituído todos os valores ausentes em nossa tabela já que `fillna` também funciona com `DataFrame`s:
 
 ```python
-arboles.fillna(arboles["inclination"].median(), inplace=True)
+arvores.fillna(arvores["inclination"].median(), inplace=True)
 ```
 
-Pero hacer esto implica el riesgo de reemplazar otros datos faltantes, como por ejemplo alturas, por el promedio de la inclinación.
+Mas fazer isso traz o risco de substituir outros dados  faltantes, como por exemplo alturas, pela média da inclinação.
