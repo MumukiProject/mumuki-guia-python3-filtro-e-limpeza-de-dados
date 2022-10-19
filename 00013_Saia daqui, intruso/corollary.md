@@ -1,5 +1,7 @@
-¡Excelente!
+Excelente! :dizzy:
 
-En este caso obtuvimos valores más sensatos solo eliminando el 2% más grande en altura y diámetro. 
+Neste caso obtivemos valores mais aproximados apenas retirando os 2% de árvores maiores em altura e diâmetro. 
 
-Si bien no hay reglas sobre qué datos son atípicos y qué datos no, existen diferentes criterios que permiten identificarlos. Uno de ellos, el cual es utilizado para calcular los bigotes de un gráfico de caja, es emplear la medida del [rango intercuartílico](https://es.wikipedia.org/wiki/Rango_intercuart%C3%ADlico) o IQR, por sus siglas en inglés. 
+Embora não existam regras sobre quais dados são atípicos e quais não são, existem diferentes critérios para identificá-los. Um deles, que é usado para calcular os bigodes de um gráfico de caixa, é usar a medida do [intervalo interquartil]
+(https://pt.wikipedia.org/wiki/Amplitude_interquartil) ou IIQ.
+
