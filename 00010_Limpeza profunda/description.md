@@ -4,21 +4,22 @@ Outra das soluções possíveis para o tratamento dos dados faltantes é elimina
 tabela.dropna()
 ```
 
-Incluso podríamos eliminar aquellas filas que tengan más de un dato faltante  haciendo:
+Inclusive poderíamos eliminar aquelas linhas que tenham mais de um dado faltante  fazendo:
 
 ```python
-# elimina todas las filas que tengan 2 o más columnas con nan
-tabla.dropna(thresh=2) 
+# elimina todas as linhas que tenham 2 ou mais colunas com nan
+tabela.dropna(thresh=2) 
 ```
 
-A diferencia de los filtrados anteriores, con `dropna` podemos eliminar estas filas en nuestra tabla original utilizando `inplace=True` como argumento:
+Diferente das filtragens anteriores, com `dropna` podemos eliminar estas linhas em nossa tabela original utilizando `inplace=True` como argumento:
 
 ```python
-tabla.dropna(inplace=True)
-# o combinando ambos parámetros
-tabla.dropna(thresh=2, inplace=True)
+tabela.dropna(inplace=True)
+# ou combinando ambos parâmetros
+tabela.dropna(thresh=2, inplace=True)
 ```
 
-👀 ¡Ojo! Esta operación modifica la tabla y si borramos cosas que no debíamos, ¡las perdemos para siempre! Tené especial cuidado antes de ejecutarla. 🥺 
 
-> ¡Vamos a probarlo! Eliminá del `DataFrame` `arboles` todas las filas que tengan algún valor nulo. 
+👀Atenção! Esta operação modifica a tabela e se deletarmos coisas que não deveríamos, nós as perdemos para sempre! Tenha cuidado especial antes de executá-la 🥺. 
+
+>Vamos tentar! Elimine do `DataFrame` `arvores` todas as linhas que tenham algum valor nulo. 🧼
