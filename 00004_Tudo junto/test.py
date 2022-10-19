@@ -6,11 +6,11 @@ class Test(unittest.TestCase):
       #...content...#
     )
   
-  def test_genera_un_dataframe(self):
+  def test_gera_o_DataFrame(self):
     self.assertEquals(type(self.resultado), pd.DataFrame)
     
-  def test_solo_contiene_oleaceas_de_la_comuna_10(self):
+  def test_retorna_apenas_oleaceas_comuna_10(self):
     self.assertEquals(len(self.resultado), 1)
-    self.assertEquals(self.resultado.iloc[0]["tree_id"], 182465, "Debería haber encontrado al árbol 182465")
+    self.assertEquals(self.resultado.iloc[0]["tree_id"], 182465, "Deveria ter encontrado a árvore 182465")
     
     
