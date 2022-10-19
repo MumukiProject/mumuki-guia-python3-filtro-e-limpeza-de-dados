@@ -1,10 +1,10 @@
-Con `isna` (o lo que es lo mismo, con su sinónimo `isnull`) podemos  obtener todos los árboles de los cuáles no sabemos su calle. En nuestro caso vemos que en 12 filas esta información está ausente, lo cual es compatible con lo que nos devuelve `info`:
+Com `isna` (ou o que é o mesmo, com seu sinônimo `isnull`) podemos obter todas as árvores cuja rua não sabemos. No nosso caso vemos que em 12 linhas esta informação está ausente, o que é compatível com o que `info` retorna:
 
 ```python
-ム arboles.info()
+ム arvores.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
-Data columns (total 20 columns):
+Data colunas (total 20 colunas):
  #   Column         Non-Null Count   Dtype  
 ---  ------         --------------   -----  
  0   long           372659 non-null  float64
@@ -20,4 +20,4 @@ dtypes: float64(10), object(10)
 12
 ```
 
-Pero la gran pregunta es ¿qué hacemos ahora que sabemos que nos faltan datos? 😰
+Mas a grande questão é o que fazemos agora que sabemos que faltam dados? 😰

@@ -13,4 +13,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: Hora de limpiar
+name: Hora de limpar
