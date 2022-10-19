@@ -1,8 +1,9 @@
-Otra de las soluciones posibles para el tratamiento de los datos faltantes es eliminar toda las filas que contengan algún dato faltante 🗑️. Esto lo podemos hacer utilizando `dropna` de la siguiente forma:
+Outra das soluções possíveis para o tratamento dos dados faltantes é eliminar todas as linhas que tenham algum dado faltante 🗑️. Isso  podemos fazer utilizando `dropna` da seguinte forma:
 
 ```python
-tabla.dropna()
+tabela.dropna()
 ```
+
 Incluso podríamos eliminar aquellas filas que tengan más de un dato faltante  haciendo:
 
 ```python
