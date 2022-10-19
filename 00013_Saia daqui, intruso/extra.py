@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-arboles = pd.DataFrame([
+arvores = pd.DataFrame([
   {'long': -58.4542507859, 'lat': -34.6041032719, 'site_type': 'Árbol', 'tree_id': 4101876, 'height': 10, 'diameter': 47, 'inclination': 0, 'species_id': 18, 'fam_name': 'Moráceas', 'gen_name': 'Ficus', 'sci_name': 'Ficus elastica', 'comm_name': 'Gomero', 'fol_type': 'Árbol Latifoliado Perenne', 'origin': 'Exótico', 'neighbourhood': 'VILLA CRESPO', 'comuna': 15, 'street': 'Belaustegui, Luis, Dr.', 'num1': 0, 'num2': 0},
  {'long': -58.487043184, 'lat': -34.626723067, 'site_type': 'Árbol', 'tree_id': 142527, 'height': 3, 'diameter': 6, 'inclination': 0, 'species_id': 93, 'fam_name': 'Araucariaceas', 'gen_name': 'Agathis', 'sci_name': 'Agathis robusta', 'comm_name': 'Kauri de corteza lisa', 'fol_type': 'Árbol Latifoliado Perenne', 'origin': 'Exótico', 'neighbourhood': 'FLORESTA', 'comuna': 10, 'street': 'Vallese, Felipe', 'num1': 4059, 'num2': 0},
  {'long': -58.5036333763, 'lat': -34.5939789239, 'site_type': 'Árbol', 'tree_id': 4101166, 'height': 6, 'diameter': 23, 'inclination': 10, 'species_id': 1, 'fam_name': 'Oleáceas', 'gen_name': 'Fraxinus', 'sci_name': 'Fraxinus pennsylvanica', 'comm_name': 'Fresno americano', 'fol_type': 'Árbol Latifoliado Caducifolio', 'origin': 'Exótico', 'neighbourhood': 'VILLA DEVOTO', 'comuna': 11, 'street': 'Carril, Salvador Maria Del Av.', 'num1': 0, 'num2': 0},
