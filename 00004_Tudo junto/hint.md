@@ -1,0 +1,1 @@
+:warning: Preste atenção aos parênteses! Quando usamos `&`, as condições com operações de comparação como `==`, `>`, etc. devem ser envolvidas para não entrarem em conflito com as demais.
