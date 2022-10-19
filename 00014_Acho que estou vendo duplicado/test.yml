@@ -1,0 +1,58 @@
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      contain: 
+        expected: "lat"
+        error: 'Um dos testes misteriosos falhou'
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      contain: 
+        expected: "long"
+        error: 'Um dos testes misteriosos falhou'
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      contain: 
+        expected: "height"
+        error: 'Um dos testes misteriosos falhou'
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      contain: 
+        expected: "diameter"
+        error: 'Um dos testes misteriosos falhou'
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      contain: 
+        expected: "inclination"
+        error: 'Um dos testes misteriosos falhou'
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!tree_id).)*$'
+        error: 'Um dos testes misteriosos falhou'   
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!fol_type).)*$'
+        error: 'Um dos testes misteriosos falhou'   
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!fam_name).)*$'
+        error: 'Um dos testes misteriosos falhou'   
+- name: 'Teste misterioso'
+  keys:
+    subset:
+      match: 
+        expected: 'gen_name|sci_name|comm_name'
+        error: 'Um dos testes misteriosos falhou'   
+                                
+                                
+
+        

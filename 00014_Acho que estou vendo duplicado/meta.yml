@@ -13,4 +13,4 @@ goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: Creo que veo doble
+name: Acho que estou vendo duplicado
