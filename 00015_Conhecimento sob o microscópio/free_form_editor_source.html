@@ -1,25 +1,25 @@
 <div class="form-horizontal">
   <fieldset>
-    <label for="services">¿Cuántos valores nulos tenemos en la columna <code>services</code>?</label>
+    <label for="services">Quantos valores nulos temos na coluna <code>services</code>?</label>
     <input type="number" min="0" step="1" name="services" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   <fieldset>
-    <label for="dropna">¿Qué tamaño tendrá nuestro dataset al eliminar todos los <code>nan</code>s?</label>
+    <label for="dropna">Qual será o tamanho do nosso dataset quando removermos todos os <code>nan</code>s?</label>
     <input type="number" min="0" step="1" name="dropna" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>  
   <fieldset>
-    <label for="total">¿Cuántos <a href="https://es.wikipedia.org/wiki/Microscopio_electr%C3%B3nico">microscopios electrónicos</a> hay en total? </label>
+    <label for="total">Quantos <a href="https://pt.wikipedia.org/wiki/Microsc%C3%B3pio_eletr%C3%B4nico">microscópio eletrônico</a> existem ao todo? </label>
     <input type="number" min="0" step="1" name="total" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   <fieldset>
-    <label for="dist">¿Cómo están distribuidos esos microscopios por provincia?</label>
+    <label for="dist">Como esses microscópios estão distribuídos por estado?</label>
     <p>
-    Ingresarlo en un csv como el siguiente, ordenado de mayor a menor cantidad:
+    Insira-o em um csv como o seguinte, classificado do maior para o menor:
 <pre><samp>prov_name,equipment_id
 Salta,12
 Neuquén,7
 ..etc...</samp></pre>
-    Los valores son sólo ilustrativos.
+    Os valores são apenas ilustrativos.
     </p>
     <samp>
     <textarea name="dist" rows="15" class="form-control mu-free-form-input mu-inline-input">
@@ -27,7 +27,7 @@ Neuquén,7
     </samp>
   </fieldset>  
   <fieldset>
-    <label for="out">Si se realiza un gráfico de caja sobre la variable anterior, ¿cuántas provincias "fuera de serie" quedan por encima del bigote superior?</label>
+    <label for="out"> Se um gráfico de caixa for feito sobre a variável anterior, quantos estados "fora de série" estão acima do bigode superior?</label>
     <input type="number" min="0" step="1" name="out" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   
