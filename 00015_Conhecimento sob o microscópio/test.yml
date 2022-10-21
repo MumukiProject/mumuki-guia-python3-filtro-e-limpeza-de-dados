@@ -1,16 +1,16 @@
-- name: 'Cantidad de valores nulos tenemos en la columna "servicios"'
+- name: 'Número de valores nulos na coluna "services"'
   keys:
     services:
       equal: 255
-- name: 'Tamaño del dataset al eliminar todos los nans'
+- name: 'Tamanho do conjunto de dados ao remover todas as nans'
   keys:
     dropna:
       equal: 178
-- name: 'Cantidad de microscopios electrónicos'
+- name: 'Número de microscópios eletrônicos'
   keys:
     total:
       equal: 68
-- name: 'Cantidad de microscopios electrónicos por provincia'
+- name: 'Número de microscópios eletrônicos por estado'
   keys:
     dist:
       equal: 
@@ -19,7 +19,7 @@
         lenient_blank: true
         ignore_whitespace: true
         ignore_case: true           
-- name: 'Número de provincias con cantidades fuera de serie de microscopios'
+- name: 'Número de estados com números de microscópios fora de série'
   keys:
     out:
       equal: 2
