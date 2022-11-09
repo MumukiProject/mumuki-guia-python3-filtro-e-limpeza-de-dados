@@ -1,4 +1,4 @@
-Obtivemos um `Series` de booleanos! :sunglasses:
+Obtivemos uma `Series` de booleanos! :sunglasses:
 
 ```
 0          True
