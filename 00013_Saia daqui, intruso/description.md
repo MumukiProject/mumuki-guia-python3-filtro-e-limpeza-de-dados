@@ -27,5 +27,5 @@ Wow! Quanta mudança! Tudo parece indicar que as árvores mais altas estão _for
 
 Quando nos deparamos com essa situação, geralmente também optamos por remover estes escassos valores pouco representativos do conjunto de dados.
 
-> Parece que temos que passar a tesoura por aqui ✂️. Remova as árvores que estão dentro dos 98% das árvores mais baixas **e de menor diâmetro**.
+> Parece que temos que passar a tesoura por aqui ✂️. Mantenha apenas as árvores que estão dentro dos 98% das árvores mais baixas **e de menor diâmetro**.
 
