@@ -12,4 +12,4 @@ Esta expressão retorna um novo `Series` com as substituições, embora possamos
 tabela["coluna_com_faltantes"].fillna(tabela["coluna_com_faltantes"].mean(), inplace=True)
 ```
 
-> Vamos testar! Substitua em `arvores` todas as inclinações faltantes pela média dessa coluna. 
+> Vamos testar! Substitua em nossa tabela de `arvores` todas as inclinações faltantes pela média dessa coluna. 
