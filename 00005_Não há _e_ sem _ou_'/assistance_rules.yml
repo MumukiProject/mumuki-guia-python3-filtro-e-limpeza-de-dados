@@ -1,0 +1,5 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: submission_failed
+  then: Lembra-se que os bairros estam en maiusculas
