@@ -9,4 +9,4 @@ Novamente, lembramos que esta filtragem não altera o `DataFrame` original e que
 2441
 ```
 
-Como você pode imaginar, essas não são as únicas operações de string que podemos usar. Na verdade, existem muitas mais do que as que já trabalhamos e você pode conhecê-las [aqui](https://pandas.pydata.org/docs/user_guide/text.html)
+Como você pode imaginar, essas não são as únicas operações de string que podemos usar. Na verdade, existem muitas mais do que as que já trabalhamos e você pode conhecê-las [aqui](https://pandas.pydata.org/docs/user_guide/text.html).
