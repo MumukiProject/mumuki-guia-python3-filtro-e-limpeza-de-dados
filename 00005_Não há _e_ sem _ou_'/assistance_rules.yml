@@ -1,5 +1,8 @@
 ---
 rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: submission_failed
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - Contém as árvores de balvanera
+    - Contém apenas as árvores solicitadas
   then: Lembre-se de que os bairros estão em letras maiúsculas.
