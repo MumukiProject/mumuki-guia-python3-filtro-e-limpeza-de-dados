@@ -9,4 +9,4 @@ arvores[arvores["height"] >= 7]
 
 ...obteríamos um novo `DataFrame` com todas as árvores que medem 7 metros ou mais de altura.
 
-> Agora é sua vez! Em uma nova célula do seu caderno, escreva uma expressão que permita obter todas as árvores do bairro Palermo.
+> Agora é sua vez! Em uma nova célula do seu caderno, escreva uma expressão que permita obter todas as árvores do bairro (`neighbourhood`) Palermo.
