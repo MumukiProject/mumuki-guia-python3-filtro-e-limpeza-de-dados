@@ -23,4 +23,4 @@ Maaaaas, se o que realmente nos interessa são apenas os salgueiros de Palermo, 
 arvores[(arvores["neighbourhood"] == "PALERMO") & arvores["comm_name"].str.startswith("Sauce")]
 ```
 
-> Vejamos se ficou claro! Usando tudo o que vimos, escreva uma **única expressão** que retorne aquelas árvores que estão na comuna 10 e que são da família das Oleáceas.
+> Vejamos se ficou claro! Usando tudo o que vimos, escreva uma **única expressão** que retorne aquelas árvores que estão na comuna 10 e que são da família (`fam_name`) das Oleáceas.
