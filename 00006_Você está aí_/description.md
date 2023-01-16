@@ -9,10 +9,10 @@ E talvez não pareça tão sério. Mas o que acontece se queremos as árvores da
 
 ```python
 arvores[
-  (arvores["neighbourhood"] == "FLORESTA") | 
-  (arvores["neighbourhood"] == "RECOLETA") | 
-  (arvores["neighbourhood"] == "BELGRANO") | 
-  (arvores["neighbourhood"] == "NUÑEZ")
+  (arvores["neighbourhood"] == "FLORESTA") 
+  | (arvores["neighbourhood"] == "RECOLETA") 
+  | (arvores["neighbourhood"] == "BELGRANO") 
+  | (arvores["neighbourhood"] == "NUÑEZ")
 ]
 ```
 
@@ -28,7 +28,12 @@ arvores[arvores["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑ
 > Não acredita? Verifique em seu caderno que as seguintes expressões retornam os mesmos resultados...
 >
 > ```python
-> arvores[(arvores["neighbourhood"] == "FLORESTA") | (arvores["neighbourhood"] == "RECOLETA") | (arvores["neighbourhood"] == "BELGRANO") | (arvores["neighbourhood"] == "NUÑEZ")]
+> arvores[
+>  (arvores["neighbourhood"] == "FLORESTA") 
+>  | (arvores["neighbourhood"] == "RECOLETA") 
+>  | (arvores["neighbourhood"] == "BELGRANO") 
+>  | (arvores["neighbourhood"] == "NUÑEZ")
+> ]
 > arvores[arvores["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑEZ"])]
 > ```
 > ... e responda: quantas árvores atendem a essa condição?
