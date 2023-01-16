@@ -8,7 +8,12 @@ E talvez não pareça tão sério. Mas o que acontece se queremos as árvores da
 
 
 ```python
-arvores[(arvores["neighbourhood"] == "FLORESTA") | (arvores["neighbourhood"] == "Recoleta") | (arvores["neighbourhood"] == "BELGRANO") | (arvores["neighbourhood"] == "NUÑEZ")]
+arvores[
+  (arvores["neighbourhood"] == "FLORESTA") | 
+  (arvores["neighbourhood"] == "RECOLETA") | 
+  (arvores["neighbourhood"] == "BELGRANO") | 
+  (arvores["neighbourhood"] == "NUÑEZ")
+]
 ```
 
 ... não parece o melhor caminho, não é? 🙄
