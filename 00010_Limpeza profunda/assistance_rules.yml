@@ -4,4 +4,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Not:SourceContains:thresh"
-  then: Queremos remover **todos** os valores nulos
+  then: queremos remover **todos** os valores nulos
