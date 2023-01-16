@@ -16,7 +16,7 @@ Data colunas (total 20 colunas):
  18  num1           372635 non-null  float64
  19  num2           372605 non-null  float64
 dtypes: float64(10), object(10)
-ム len(arboles) - 372682
+ム len(arvores) - 372682
 12
 ```
 
