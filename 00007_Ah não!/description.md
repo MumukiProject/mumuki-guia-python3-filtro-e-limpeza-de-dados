@@ -7,4 +7,4 @@ pessoas[~pessoas["sobrenome"].str.endswith("s")]
 ```
 
 
-> Agora é a sua vez! Usando `~` obtenha todas as árvores que não sejam árvores de freixo (_fresno_), ou seja, cujo nome não comece com `"Fresno"`.
+> Agora é a sua vez! Usando `~` obtenha todas as árvores que não sejam árvores de freixo (_fresno_), ou seja, cujo nome comum não  (`comm_name`) comece com `"Fresno"`.
