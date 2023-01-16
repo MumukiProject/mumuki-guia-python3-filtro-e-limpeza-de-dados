@@ -34,6 +34,9 @@ arvores[arvores["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑ
 >  | (arvores["neighbourhood"] == "BELGRANO") 
 >  | (arvores["neighbourhood"] == "NUÑEZ")
 > ]
+> ```
+>
+> ```python
 > arvores[arvores["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑEZ"])]
 > ```
 > ... e responda: quantas árvores atendem a essa condição?
