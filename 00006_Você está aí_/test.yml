@@ -1,4 +1,4 @@
-- name: 'Respuesta'
+- name: 'Resposta'
   keys:
     ans:
       equal: 35903
