@@ -2,7 +2,7 @@ Com `isna` (ou o que é o mesmo, com seu sinônimo `isnull`) podemos obter todas
 
 ```python
 ム arvores.info()
-<class 'pandas.core.frame.DataFrame'>
+# <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
 Data colunas (total 20 colunas):
  #   Column         Non-Null Count   Dtype  
