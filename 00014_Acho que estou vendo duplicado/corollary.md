@@ -1,0 +1,1 @@
+Muito bem! Existem muitos conjuntos de colunas que poderíamos considerar relevantes, mas definitivamente devemos excluir `tree_id`, porque está atribuindo um número único a cada árvore (mesmo possíveis duplicatas!).
