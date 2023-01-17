@@ -26,8 +26,8 @@ Poderia `long` ser uma coluna relevante? Claro! Afinal, existem muitas árvores 
 
 ⚠️ Mas cuidado, porque também pode haver duas árvores no mesmo `long` mas diferentes `lat`. Na verdade, `lat` também é relevante, porque você encontrará árvores no mesmo local aproximado (mesmo `lat` e `long`)...
 
-```
-ム len(arvores) - len(arvores.drop_duplicates(subset=['long', 'lat']))
+```python
+ム len(arvores) - len(arvores.drop_duplicates(subset=["long", 'lat']))
 # tente!
 ```
 
