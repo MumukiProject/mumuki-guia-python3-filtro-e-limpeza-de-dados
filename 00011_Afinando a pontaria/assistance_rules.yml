@@ -1,0 +1,5 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: submission_errored
+  then: lembre-se de escrever uma única **expressão**
