@@ -1,4 +1,4 @@
-Já estudamos estratégias para lidar com dados faltantes e atípicos. Para finalizar vamos falar de outro caso comum, os duplicados! 👥 É comum encontrar células duplicadas em lotes, mas a boa notícia é que elas podem ser facilmente removidas da seguinte forma:
+Já estudamos estratégias para lidar com dados faltantes e atípicos. Para finalizar vamos falar de outro caso frequente, os duplicados! 👥 É comum encontrar células duplicadas em lotes, mas a boa notícia é que elas podem ser facilmente removidas da seguinte forma:
 
 ```python
 dataset.drop_duplicates(inplace=True)
