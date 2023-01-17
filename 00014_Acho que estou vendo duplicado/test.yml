@@ -1,15 +1,21 @@
-- name: 'Teste misterioso'
+- name: '<code>lat</code> é relevante'
   keys:
     subset:
       contain: 
         expected: "lat"
-        error: 'Um dos testes misteriosos falhou'
-- name: 'Teste misterioso'
+        error: '<code>lat</code> é relevante'
+- name: '<code>long</code> é relevante'
   keys:
     subset:
       contain: 
         expected: "long"
-        error: 'Um dos testes misteriosos falhou'
+        error: '<code>long</code> é relevante'
+- name: '<code>site_type</code> no é relevante'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!site_type).)*$'
+        error: '<code>site_type</code> não é relevante'
 - name: 'Teste misterioso'
   keys:
     subset:
@@ -32,15 +38,5 @@
   keys:
     subset:
       match: 
-        expected: '^((?!tree_id).)*$'
-        error: 'Um dos testes misteriosos falhou'   
-- name: 'Teste misterioso'
-  keys:
-    subset:
-      match: 
         expected: 'gen_name|sci_name|comm_name'
-        error: 'Um dos testes misteriosos falhou'   
-                                
-                                
-
-        
+        error: 'Um dos testes misteriosos falhou'
