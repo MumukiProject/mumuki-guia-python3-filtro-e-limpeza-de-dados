@@ -38,5 +38,5 @@
   keys:
     subset:
       match: 
-        expected: 'gen_name|sci_name|comm_name'
+        expected: 'gen_name|sci_name|comm_name|species_id'
         error: 'Um dos testes misteriosos falhou'
