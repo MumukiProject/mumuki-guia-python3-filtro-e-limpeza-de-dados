@@ -11,7 +11,7 @@ Uh, mas como sabemos quais colunas são relevantes quando se trata de remover du
 Poderia `long` ser uma coluna relevante? Claro! Afinal, existem muitas árvores com o mesmo valor `long`:
 
 ```python
-ム len(arvores) - arvores["long"].nunique()
+ム len(arvores) - arvores['long'].nunique()
 # > 1000 experimente!
 ```
 
@@ -27,7 +27,7 @@ Poderia `long` ser uma coluna relevante? Claro! Afinal, existem muitas árvores 
 ⚠️ Mas cuidado, porque também pode haver duas árvores no mesmo `long` mas diferentes `lat`. Na verdade, `lat` também é relevante, porque você encontrará árvores no mesmo local aproximado (mesmo `lat` e `long`)...
 
 ```python
-ム len(arvores) - len(arvores.drop_duplicates(subset=["long", 'lat']))
+ム len(arvores) - len(arvores.drop_duplicates(subset=['long', 'lat']))
 # tente!
 ```
 
@@ -45,7 +45,7 @@ Poderia `long` ser uma coluna relevante? Claro! Afinal, existem muitas árvores 
 Não, porque se virmos o seu número de valores únicos veremos que existe apenas um...
 
 ```python
-ム list(arvores["site_type"].unique())
+ム list(arvores['site_type'].unique())
 ['Árbol']
 ```
 
