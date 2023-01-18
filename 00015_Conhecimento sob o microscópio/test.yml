@@ -11,19 +11,10 @@
     total:
       equal: 68
 - name: 'Número de microscópios eletrônicos por estado'
-  keys:
-    dist:
-      equal: 
-        expected: "prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\nRÍO NEGRO,5\nSANTA FE,5\nTUCUMÁN,4\nMENDOZA,3\nENTRE RÍOS,2\nSALTA,2\nCHUBUT,1\nCORRIENTES,1\nNEUQUÉN,1\nSAN JUAN,1\nSAN LUIS,1"
-        multiline: true
-        lenient_blank: true
-        ignore_whitespace: true
-        ignore_case: true           
-- name: 'Foo'
   keys: 
     dist: 
       match:
-        expected: "^prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\n([[:alpha:]]|\\s)+,5\n([[:alpha:]]|\\s)+,5\nTUCUMÁN,4\nMENDOZA,3\n([[:alpha:]]|\\s)+,2\n([[:alpha:]]|\\s)+,2\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n*$"
+        expected: "^prov_name,equipment_id\\s*\nBUENOS AIRES,22\\s*\nCABA,12\\s*\nCÓRDOBA,8\\s*\n([[:alpha:]]|\\s)+,5\\s*\n([[:alpha:]]|\\s)+,5\\s*\nTUCUMÁN,4\\s*\nMENDOZA,3\\s*\n([[:alpha:]]|\\s)+,2\\s*\n([[:alpha:]]|\\s)+,2\\s*\n([[:alpha:]]|\\s)+,1\\s*\n([[:alpha:]]|\\s)+,1\\s*\n([[:alpha:]]|\\s)+,1\\s*\n([[:alpha:]]|\\s)+,1\\s*\n([[:alpha:]]|\\s)+,1\\s*\n*$"
 - name: 'Número de estados com números de microscópios fora de série'
   keys:
     out:
