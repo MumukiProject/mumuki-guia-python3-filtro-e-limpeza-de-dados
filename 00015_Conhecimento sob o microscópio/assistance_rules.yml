@@ -1,7 +1,0 @@
----
-rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    these_tests_failed:
-    - Número de microscópios eletrônicos por estado
-  then: Ojo con el orden
