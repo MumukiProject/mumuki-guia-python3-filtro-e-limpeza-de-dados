@@ -23,7 +23,7 @@
   keys: 
     dist: 
       match:
-        expected: "^prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\n(\\w|\\s)+,5\n(\\w|\\s)+,5\nTUCUMÁN,4\nMENDOZA,3\n(\\w|\\s)+,2\n(\\w|\\s)+,2\n(\\w|\\s)+,1\n(\\w|\\s)+,1\n(\\w|\\s)+,1\n(\\w|\\s)+,1\n(\\w|\\s)+,1\n*$"
+        expected: "^prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\n([[:alpha:]]|\\s)+,5\n([[:alpha:]]|\\s)+,5\nTUCUMÁN,4\nMENDOZA,3\n([[:alpha:]]|\\s)+,2\n([[:alpha:]]|\\s)+,2\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n([[:alpha:]]|\\s)+,1\n*$"
 - name: 'Número de estados com números de microscópios fora de série'
   keys:
     out:
