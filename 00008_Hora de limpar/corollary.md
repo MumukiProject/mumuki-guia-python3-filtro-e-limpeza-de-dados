@@ -1,4 +1,4 @@
-Com `isna` (ou o que é o mesmo, com seu sinônimo `isnull`) podemos obter todas as árvores cuja rua não sabemos. No nosso caso vemos que em 12 linhas esta informação está ausente, o que é compatível com o que `info` retorna:
+Com `isna` (que é o mesmo que seu sinônimo `isnull`) podemos obter todas as árvores cuja rua não sabemos. No nosso caso vemos que em 12 linhas esta informação está ausente, o que é compatível com o que `info` retorna:
 
 ```python
 ム arvores.info()
