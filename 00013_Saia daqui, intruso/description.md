@@ -3,21 +3,21 @@ Ao limpar nossos dados, não queremos apenas remover valores nulos, mas também 
 Vamos observar por exemplo a altura das nossas árvores 🌲...
 
 ```python
-ム arvores["height"].max()
+ムarvores["height"].max()
 60.0
 ```
 
 ...e vamos comparar com a mediana:
 
 ```python
-ム arvores["height"].median()
+ムarvores["height"].median()
 8
 ```
 
 Há muita diferença! Isso poderia estar correto, mas por via das dúvidas, vamos verificar o que acontece se removermos, por exemplo, 2% das árvores mais altas usando `quantil`:  
 
 ```python
-ム arvores["height"].quantile(0.98)
+ムarvores["height"].quantile(0.98)
 20
 ```
 

@@ -3,9 +3,9 @@ Impecável! ✨
 Novamente, lembramos que esta filtragem não altera o `DataFrame` original e que embora estejamos salvando o resultado em uma variável `salgueiro`, a tabela original `arvores` não é modificada.
 
 ```python
-ム len(arvores)
+ムlen(arvores)
 372694
-ム len(salgueiros)
+ムlen(salgueiros)
 2441
 ```
 

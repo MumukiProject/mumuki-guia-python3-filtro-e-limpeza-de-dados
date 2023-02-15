@@ -1,7 +1,7 @@
 Com `isna` (que é o mesmo que seu sinônimo `isnull`) podemos obter todas as árvores cuja rua não sabemos. No nosso caso vemos que em 12 linhas esta informação está ausente, o que é compatível com o que `info` retorna:
 
 ```python
-ム arvores.info()
+ムarvores.info()
 # <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
 Data colunas (total 20 colunas):
@@ -16,7 +16,7 @@ Data colunas (total 20 colunas):
  18  num1           372635 non-null  float64
  19  num2           372605 non-null  float64
 dtypes: float64(10), object(10)
-ム len(arvores) - 372682
+ムlen(arvores) - 372682
 12
 ```
 
