@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - Contém as árvores de balvanera
     - Contém apenas as árvores solicitadas

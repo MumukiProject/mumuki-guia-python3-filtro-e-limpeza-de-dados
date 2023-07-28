@@ -8,21 +8,17 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Uma tabela de booleanos
+- value: Uma tabela de booleanos
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Una tabela de números
+- value: Una tabela de números
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Uma tabela com as linhas que atendem à condição
+- value: Uma tabela com as linhas que atendem à condição
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Uma coluna de booleanos
+- value: Uma coluna de booleanos
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Uma coluna de números
+- value: Uma coluna de números
   checked: false
 goal: |
   --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
